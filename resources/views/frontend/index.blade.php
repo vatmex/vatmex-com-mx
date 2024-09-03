@@ -33,7 +33,7 @@
                             <img src="/frontend/images/logo-black.png" data-at2x="/frontend/images/logo-black.png" alt="" class="mobile-logo">
                         </a>
                     </div>
-                    <div class="col-auto menu-order position-static">
+                    <div class="col-auto col-lg-6 menu-order position-static">
                         <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
@@ -42,53 +42,59 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="demo-hosting.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="demo-hosting.html" class="nav-link">{{ __('navbar.home') }}</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">About</a>
+                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.about') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-people-roof"></i>Staff</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-table-list"></i>Roster</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-earth-americas"></i>Airspace</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-hand-holding-hand"></i>Donate</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-people-roof"></i>{{ __('navbar.staff') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-table-list"></i>{{ __('navbar.roster') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-earth-americas"></i>{{ __('navbar.airspace') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-hand-holding-hand"></i>{{ __('navbar.donate') }}</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">Publications</a>
+                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.publications') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-scale-balanced"></i>Policies</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-newspaper"></i>News</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-rss"></i>NOTAMS</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-scale-balanced"></i>{{ __('navbar.policies') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-newspaper"></i>{{ __('navbar.news') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-rss"></i>{{ __('navbar.notams') }}</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-hosting-domain.html" class="nav-link">Events</a></li>
+                                <li class="nav-item"><a href="demo-hosting-domain.html" class="nav-link">{{ __('navbar.events') }}</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">Controllers</a>
+                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.controllers') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-chalkboard-teacher"></i>Training Portal</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-book"></i>SOPs</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-handshake"></i>Letters of Agreement</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-download"></i>Download Vatsys</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-chalkboard-teacher"></i>{{ __('navbar.training_portal') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-book"></i>{{ __('navbar.sops') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-handshake"></i>{{ __('navbar.loas') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-download"></i>{{ __('navbar.vatsys_download') }}</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">Contact</a>
+                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.contact') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-calendar-check"></i>Request ATC</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-comments"></i>Controller Feedback</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-handshake"></i>Letters of Agreement</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-person-circle-question"></i>Ask the Staff</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-calendar-check"></i>{{ __('navbar.request_atc') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-comments"></i>{{ __('navbar.controller_feedback') }}</a></li>
+                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-person-circle-question"></i>{{ __('navbar.ask_the_staff') }}</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-hosting-contact.html" class="nav-link">Join!</a></li>
+                                <li class="nav-item"><a href="demo-hosting-contact.html" class="nav-link">{{ __('navbar.join') }}</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto col-lg-2 text-end lg-pe-5px">
+                    <div class="col-auto col-lg-3 text-end lg-pe-5px">
                         <div class="header-icon">
+                            <div class="header-search-icon icon">
+                                @if (App::getLocale() == 'en')
+                                    <a href="{{ route('locale', 'es') }}"><i class="fa-solid fa-language"></i> ESP</a>
+                                @elseif (App::getLocale() == 'es')
+                                    <a href="{{ route('locale', 'en') }}"><i class="fa-solid fa-language"></i> ENG</a>
+                                @endif
+                            </div>
                             <div class="header-button ms-30px xxl-ms-10px xs-ms-0">
                                 <a href="#" class="btn btn-white btn-small btn-rounded btn-box-shadow btn-switch-text fw-600">
                                     <span>
@@ -123,7 +129,7 @@
                         <div class="overflow-hidden pt-5px">
                             <a href="demo-hosting-hosting.html" class="btn btn-extra-large btn-yellow btn-rounded btn-box-shadow btn-switch-text d-inline-block me-15px xs-m-10px align-middle fw-600" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900, "delay": 500 }'>
                                 <span>
-                                    <span class="btn-double-text" data-text="Request training">Request training</span>
+                                    <span class="btn-double-text" data-text="Request training">{{ __('home.hero.request_training') }}</span>
                                     <span><i class="feather icon-feather-arrow-right"></i></span>
                                 </span>
                             </a>
