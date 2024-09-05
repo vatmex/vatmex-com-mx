@@ -44,45 +44,45 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a href="demo-hosting.html" class="nav-link">{{ __('navbar.home') }}</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.about') }}</a>
+                                    <a href="#" class="nav-link">{{ __('navbar.about') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-people-roof"></i>{{ __('navbar.staff') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-table-list"></i>{{ __('navbar.roster') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-earth-americas"></i>{{ __('navbar.airspace') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-hand-holding-hand"></i>{{ __('navbar.donate') }}</a></li>
+                                        <li><a href="{{ url('/about/staff') }}"><i class="fa-solid fa-people-roof"></i>{{ __('navbar.staff') }}</a></li>
+                                        <li><a href="{{ url('/about/roster') }}"><i class="fa-solid fa-table-list"></i>{{ __('navbar.roster') }}</a></li>
+                                        <li><a href="{{ url('/about/airspace')}}"><i class="fa-solid fa-earth-americas"></i>{{ __('navbar.airspace') }}</a></li>
+                                        <li><a href="https://ko-fi.com/vatmex" target="_blank"><i class="fa-solid fa-hand-holding-hand"></i>{{ __('navbar.donate') }}</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.publications') }}</a>
+                                    <a href="#" class="nav-link">{{ __('navbar.publications') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-scale-balanced"></i>{{ __('navbar.policies') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-newspaper"></i>{{ __('navbar.news') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-rss"></i>{{ __('navbar.notams') }}</a></li>
+                                        <li><a href="{{ url('/publications/policies') }}"><i class="fa-solid fa-scale-balanced"></i>{{ __('navbar.policies') }}</a></li>
+                                        <li><a href="{{ url('/publications/news') }}"><i class="fa-solid fa-newspaper"></i>{{ __('navbar.news') }}</a></li>
+                                        <li><a href="{{ url('/publications/notams') }}"><i class="fa-solid fa-rss"></i>{{ __('navbar.notams') }}</a></li>
+                                        <li><a href="{{ url('/publications/loas') }}"><i class="fa-regular fa-handshake"></i>{{ __('navbar.loas') }}</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-hosting-domain.html" class="nav-link">{{ __('navbar.events') }}</a></li>
+                                <li class="nav-item"><a href="{{ url('/events') }}" class="nav-link">{{ __('navbar.events') }}</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.controllers') }}</a>
+                                    <a href="#" class="nav-link">{{ __('navbar.controllers') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-chalkboard-teacher"></i>{{ __('navbar.training_portal') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-book"></i>{{ __('navbar.sops') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-handshake"></i>{{ __('navbar.loas') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-download"></i>{{ __('navbar.vatsys_download') }}</a></li>
+                                        <li><a href="https://training.vatmex.com.mx/" target="_blank"><i class="fa-solid fa-chalkboard-teacher"></i>{{ __('navbar.training_portal') }}</a></li>
+                                        <li><a href="https://sop.vatmex.com.mx/" target="_blank"><i class="fa-solid fa-book"></i>{{ __('navbar.sops') }}</a></li>
+                                        <li><a href="https://virtualairtrafficsystem.com/" target="_blank"><i class="fa-solid fa-download"></i>{{ __('navbar.vatsys_download') }}</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                                    <a href="demo-it-business-services.html" class="nav-link">{{ __('navbar.contact') }}</a>
+                                    <a href="#" class="nav-link">{{ __('navbar.contact') }}</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-calendar-check"></i>{{ __('navbar.request_atc') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-regular fa-comments"></i>{{ __('navbar.controller_feedback') }}</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="fa-solid fa-person-circle-question"></i>{{ __('navbar.ask_the_staff') }}</a></li>
+                                        <li><a href="{{ url('/contact/request') }}"><i class="fa-solid fa-calendar-check"></i>{{ __('navbar.request_atc') }}</a></li>
+                                        <li><a href="{{ url('/contact/feedback') }}"><i class="fa-regular fa-comments"></i>{{ __('navbar.controller_feedback') }}</a></li>
+                                        <li><a href="{{ url('/contact/ask') }}"><i class="fa-solid fa-person-circle-question"></i>{{ __('navbar.ask_the_staff') }}</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-hosting-contact.html" class="nav-link">{{ __('navbar.join') }}</a></li>
+                                <li class="nav-item"><a href="{{ url('/apply') }}" class="nav-link">{{ __('navbar.join') }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                                 @endif
                             </div>
                             <div class="header-button ms-30px xxl-ms-10px xs-ms-0">
-                                <a href="#" class="btn btn-white btn-small btn-rounded btn-box-shadow btn-switch-text fw-600">
+                                <a href="{{ url('/auth/login') }}" class="btn btn-white btn-small btn-rounded btn-box-shadow btn-switch-text fw-600">
                                     <span>
                                         <span class="btn-double-text" data-text="Login with VATSIM">Login with VATSIM</span>
                                     </span>
@@ -127,7 +127,7 @@
                             <span class="d-inline-block lh-32" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900, "delay": 300 }'>VATMEX es la división mexicana de VATSIM. Nuestro propósito es brindar servicio de control de tránsito aéreo en México, al igual que proveer constante entrenamiento y recursos a controladores y pilotos virtuales que deseen participar en la división.</span>
                         </div>
                         <div class="overflow-hidden pt-5px">
-                            <a href="demo-hosting-hosting.html" class="btn btn-extra-large btn-yellow btn-rounded btn-box-shadow btn-switch-text d-inline-block me-15px xs-m-10px align-middle fw-600" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900, "delay": 500 }'>
+                            <a href="{{ url('/apply') }}" class="btn btn-extra-large btn-yellow btn-rounded btn-box-shadow btn-switch-text d-inline-block me-15px xs-m-10px align-middle fw-600" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900, "delay": 500 }'>
                                 <span>
                                     <span class="btn-double-text" data-text="Request training">{{ __('home.hero.request_training') }}</span>
                                     <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -150,7 +150,7 @@
             <div class="container overlap-section">
                 <div class="row justify-content-center overlap-section border-radius-6px overflow-hidden g-0 box-shadow-extra-large">
                     <div class="col-lg-9 text-center fw-600 fs-24 lg-fs-22 ls-minus-05px text-dark-gray bg-white p-30px md-p-20px">Are you planning a group flight with your virtual airline or pilot group?</div>
-                    <div class="col-lg-3 text-center bg-yellow pt-30px pb-30px md-p-20px"><a href="demo-hosting-pricing.html" class="fw-700 text-dark-gray text-dark-gray-hover fs-24 lg-fs-20 ls-minus-05px">Request ATC<i class="feather icon-feather-arrow-right ms-5px"></i></a></div>
+                    <div class="col-lg-3 text-center bg-yellow pt-30px pb-30px md-p-20px"><a href="{{ url('contact/request') }}" class="fw-700 text-dark-gray text-dark-gray-hover fs-24 lg-fs-20 ls-minus-05px">Request ATC<i class="feather icon-feather-arrow-right ms-5px"></i></a></div>
                 </div>
             </div>
         </section>
@@ -398,7 +398,7 @@
                                 <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                     <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-01" aria-expanded="false" data-bs-parent="#accordion-style-02" class="collapsed">
                                         <div class="accordion-title mb-0 position-relative text-white pe-30px">
-                                            <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-600 fs-18">How long is the wait time for training once I sent my training request?</span>
+                                            <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-600 fs-18">How long is the wait time for training once I send my training request?</span>
                                         </div>
                                     </a>
                                 </div>
@@ -522,7 +522,7 @@
                     <!-- start footer column -->
                     <div class="col-6 col-lg-3 last-paragraph-no-margin order-sm-1 md-mb-40px xs-mb-30px">
                         <a href="demo-hosting.html" class="footer-logo mb-15px d-inline-block"><img src="/frontend/images/logo-white.png" data-at2x="/frontend/images/logo-white.png" alt=""></a>
-                        <p class="w-90 lg-w-100">Lorem ipsum amet adipiscing elit to eiusmod ad tempor incididunt enim.</p>
+                        <p class="w-90 lg-w-100">{{ __('footer.description') }}</p>
                         <div class="elements-social social-icon-style-02 mt-20px xs-mt-15px">
                             <ul class="small-icon light">
                                 <li class="my-0"><a class="discord" href="https://community.vatsim.net/" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
@@ -535,40 +535,40 @@
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                        <span class="fs-17 fw-500 d-block text-white mb-5px">Company</span>
+                        <span class="fs-17 fw-500 d-block text-white mb-5px">{{ __('footer.about.title') }}</span>
                         <ul>
-                            <li><a href="demo-hosting-about.html">About</a></li>
-                            <li><a href="demo-hosting-hosting.html">Hosting</a></li>
-                            <li><a href="demo-hosting-domain.html">Domain</a></li>
-                            <li><a href="demo-hosting-pricing.html">Pricing</a></li>
+                            <li><a href="demo-hosting-about.html">{{ __('footer.about.staff') }}</a></li>
+                            <li><a href="demo-hosting-hosting.html">{{ __('footer.about.roster') }}</a></li>
+                            <li><a href="demo-hosting-domain.html">{{ __('footer.about.airspace') }}</a></li>
+                            <li><a href="demo-hosting-pricing.html">{{ __('footer.about.donate') }}</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
-                        <span class="fs-17 fw-500 d-block text-white mb-5px">Customer</span>
+                        <span class="fs-17 fw-500 d-block text-white mb-5px">{{ __('footer.vatsim.title') }}</span>
                         <ul>
-                            <li><a href="demo-hosting-support.html">Client support</a></li>
-                            <li><a href="demo-hosting-support.html">Help center</a></li>
-                            <li><a href="demo-hosting-about.html">System status</a></li>
-                            <li><a href="demo-hosting-contact.html">Feedback</a></li>
+                            <li><a href="demo-hosting-support.html">{{ __('footer.vatsim.site') }}</a></li>
+                            <li><a href="demo-hosting-support.html">{{ __('footer.vatsim.join') }}</a></li>
+                            <li><a href="demo-hosting-about.html">{{ __('footer.vatsim.amas') }}</a></li>
+                            <li><a href="demo-hosting-contact.html">{{ __('footer.vatsim.regulations') }}</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
-                        <span class="fs-17 fw-500 d-block text-white mb-5px">Say hello</span>
-                        <span class="d-inline-flex w-100">Need the staff?</span>
+                        <span class="fs-17 fw-500 d-block text-white mb-5px">{{ __('footer.hello.title') }}</span>
+                        <span class="d-inline-flex w-100">{{ __('footer.hello.message') }}</span>
                         <a href="mailto:hello@vatmex.com.mx" class="text-white lh-22 text-decoration-line-bottom d-inline-block mb-20px">hello@vatmex.com.mx</a>
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-lg-3 col-sm-6 ps-30px sm-ps-15px md-mb-40px xs-mb-0 order-sm-2 order-lg-5">
-                        <span class="fs-17 fw-500 d-block text-white mb-5px">Subscribe our newsletter</span>
-                        <p class="mb-20px">Subscribe our newsletter to get the latest news and updates!</p>
+                        <span class="fs-17 fw-500 d-block text-white mb-5px">{{ __('footer.newsletter.title') }}</span>
+                        <p class="mb-20px">{{ __('footer.newsletter.message') }}</p>
                         <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-15px">
                             <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
-                                <input class="input-small bg-transparent-white-light border-color-transparent w-100 form-control pe-50px ps-20px lg-ps-15px required" type="email" name="email" placeholder="Enter your email" />
+                                <input class="input-small bg-transparent-white-light border-color-transparent w-100 form-control pe-50px ps-20px lg-ps-15px required" type="email" name="email" placeholder="{{ __('footer.newsletter.placeholder') }}" />
                                 <input type="hidden" name="redirect" value="">
                                 <button class="btn pe-20px submit" aria-label="submit"><i class="icon bi bi-envelope icon-small text-white"></i></button>
                                 <div class="form-results border-radius-4px pt-5px pb-5px ps-15px pe-15px fs-14 lh-22 mt-10px w-100 text-center position-absolute d-none"></div>

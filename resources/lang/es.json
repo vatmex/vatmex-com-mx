@@ -20,5 +20,21 @@
     "navbar.controller_feedback": "Feedback a Controlador",
     "navbar.ask_the_staff": "Pregunta al Staff",
     "navbar.join": "¡Únete!",
-    "home.hero.request_training": "Solicitar Entrenamiento!"
+    "home.hero.request_training": "Solicitar Entrenamiento!",
+    "footer.description": "Lorem ipsum amet adipiscing elit to eiusmod ad tempor incididunt enim!",
+    "footer.about.title": "Acerca de",
+    "footer.about.staff": "Staff",
+    "footer.about.roster": "Roster",
+    "footer.about.airspace": "Espacio Aéreo",
+    "footer.about.donate": "Donar",
+    "footer.vatsim.title": "Vatsim",
+    "footer.vatsim.site": "Website",
+    "footer.vatsim.join": "Join Vatsim!",
+    "footer.vatsim.amas": "Ameicas Region",
+    "footer.vatsim.regulations": "Regulaciones",
+    "footer.hello.title": "About",
+    "footer.hello.message": "About",
+    "footer.newsletter.title": "Subscribe our newsletter",
+    "footer.newsletter.message": "Subscribe our newsletter to get the latest news and updates!",
+    "footer.newsletter.placeholder": "Enter your emails"
 }
