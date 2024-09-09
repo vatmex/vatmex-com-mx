@@ -8,6 +8,6 @@ class StaffController extends Controller
 {
     public function publicIndex()
     {
-        return 'TODO';
+        return view('frontend.about.staff');
     }
 }

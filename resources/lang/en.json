@@ -20,7 +20,6 @@
     "navbar.controller_feedback": "Controller Feedback",
     "navbar.ask_the_staff": "Ask the Staff",
     "navbar.join": "Join!",
-    "home.hero.request_training": "Request Training!",
     "footer.description": "Lorem ipsum amet adipiscing elit to eiusmod ad tempor incididunt enim!",
     "footer.about.title": "About",
     "footer.about.staff": "Staff",
@@ -36,5 +35,10 @@
     "footer.hello.message": "About",
     "footer.newsletter.title": "Subscribe our newsletter",
     "footer.newsletter.message": "Subscribe our newsletter to get the latest news and updates!",
-    "footer.newsletter.placeholder": "Enter your emails"
+    "footer.newsletter.placeholder": "Enter your emails",
+    "home.hero.request_training": "Request Training!",
+    "staff.hero.title": "Staff",
+    "staff.hero.slogan": "Meet the team",
+    "staff.staff.title": "Meet the Staff",
+    "staff.instructors.title": "Meet the Instructors"
 }
