@@ -40,5 +40,18 @@
     "staff.hero.title": "Staff",
     "staff.hero.slogan": "Conoce al equipo",
     "staff.staff.title": "Conoce al Staff",
-    "staff.instructors.title": "Conoce a los Instructores"
+    "staff.instructors.title": "Conoce a los Instructores",
+    "roster.hero.title": "Roster",
+    "roster.hero.slogan": "Conoce a los controladores",
+    "roster.home.title": "Controladores Locales",
+    "roster.visiting.title": "Controladores Visitantes",
+    "roster.roster.name": "Nombre",
+    "roster.roster.cid": "CID",
+    "roster.roster.rating": "Rango",
+    "roster.roster.home": "División Casa",
+    "roster.roster.tower": "Torre",
+    "roster.roster.terminal": "Terminal",
+    "roster.roster.enroute": "Ruta",
+    "roster.roster.pms": "PMS",
+    "roster.roster.supercenter": "Supercentro"
 }

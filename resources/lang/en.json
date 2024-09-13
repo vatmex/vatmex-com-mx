@@ -40,5 +40,18 @@
     "staff.hero.title": "Staff",
     "staff.hero.slogan": "Meet the team",
     "staff.staff.title": "Meet the Staff",
-    "staff.instructors.title": "Meet the Instructors"
+    "staff.instructors.title": "Meet the Instructors",
+    "roster.hero.title": "Roster",
+    "roster.hero.slogan": "Meet the controllers",
+    "roster.home.title": "Home Controllers",
+    "roster.visiting.title": "Visiting Controllers",
+    "roster.roster.name": "Name",
+    "roster.roster.cid": "CID",
+    "roster.roster.rating": "Rating",
+    "roster.roster.home": "Home",
+    "roster.roster.tower": "Tower",
+    "roster.roster.terminal": "Terminal",
+    "roster.roster.enroute": "Enroute",
+    "roster.roster.pms": "PMS",
+    "roster.roster.supercenter": "Supercenter"
 }

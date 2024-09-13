@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="/frontend/css/style.css"/>
         <link rel="stylesheet" href="/frontend/css/responsive.css"/>
         <link rel="stylesheet" href="/frontend/css/vatmex.css" />
+        @yield('css')
     </head>
     <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="">
         <!-- start header navigation -->
@@ -40,5 +41,6 @@
         <script type="text/javascript" src="/frontend/js/jquery.js"></script>
         <script type="text/javascript" src="/frontend/js/vendors.min.js"></script>
         <script type="text/javascript" src="/frontend/js/main.js"></script>
+        @yield('js')
     </body>
 </html>

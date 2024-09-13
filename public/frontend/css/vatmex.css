@@ -180,3 +180,8 @@ footer ul li {
         top: 0;
     }
 }
+
+.table-roster td, .table-roster th {
+    padding: .3rem !important;
+    text-align: center !important;
+}
