@@ -3,10 +3,11 @@
 ====================================== */
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato,wght@200;300;400;500;600;700;800;900&display=swap");
 /* variable */
 :root {
-    --alt-font: 'Inter', sans-serif;
-    --primary-font: 'Inter', sans-serif;
+    --alt-font: 'Lato', sans-serif;
+    --primary-font: 'Lato', sans-serif;
     --base-color: #152bca;
     --dark-gray: #181b31;
     --green: #0fc978;
@@ -184,4 +185,12 @@ footer ul li {
 .table-roster td, .table-roster th {
     padding: .3rem !important;
     text-align: center !important;
+}
+
+.bg-gradient-vatmex-light {
+    background-image: linear-gradient(to right top, #90a5c4, #00ed4f);
+}
+
+.bg-gradient-vatmex-dark {
+    background-image: linear-gradient(to right top, #13437c, #00ed4f);
 }
