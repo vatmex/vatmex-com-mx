@@ -15,6 +15,7 @@ class Hero extends Component
         public string $title,
         public string $slogan,
         public string $imageUrl,
+        public string $fillColor = '#ffffff',
     ) {}
 
     /**

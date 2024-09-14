@@ -13,6 +13,6 @@ class PageController extends Controller
 
     public function airspace()
     {
-        return 'TODO';
+        return view('frontend.about.airspace');
     }
 }

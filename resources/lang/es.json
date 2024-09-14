@@ -53,5 +53,16 @@
     "roster.roster.terminal": "Terminal",
     "roster.roster.enroute": "Ruta",
     "roster.roster.pms": "PMS",
-    "roster.roster.supercenter": "Supercentro"
+    "roster.roster.supercenter": "Supercentro",
+    "airspace.hero.title": "Espacio Aéreo",
+    "airspace.hero.slogan": "Donde volar?",
+    "airspace.counters.title": "El Espacio Aéreo Mexicano en Números",
+    "airspace.counters.firs.count": 2,
+    "airspace.counters.firs.name": "Regiones de Información",
+    "airspace.counters.accs.count": 4,
+    "airspace.counters.accs.name": "Centro de Control",
+    "airspace.counters.sectors.count": 60,
+    "airspace.counters.sectors.name": "Sectores Ruta",
+    "airspace.counters.tmas.count": 80,
+    "airspace.counters.tmas.name": "Áreas Terminale"
 }

@@ -110,6 +110,6 @@
         $(document).ready( function () {
             $('#localRoster').DataTable();
             $('#visitingRoster').DataTable();
-        } );
+        });
     </script>
 @endsection
