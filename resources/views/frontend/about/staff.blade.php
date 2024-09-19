@@ -5,7 +5,7 @@
 @section('content')
     <x-frontend.hero :title="__('staff.hero.title')" :slogan="__('staff.hero.slogan')" imageUrl="/frontend/images/heroes/hero1.jpg"/>
     <!-- end page title -->
-    <section class="bg-white position-relative">
+    <section class="bg-white position-relative pt-2"">
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12 text-center appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">

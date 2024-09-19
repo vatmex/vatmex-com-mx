@@ -64,5 +64,9 @@
     "airspace.counters.sectors.count": 60,
     "airspace.counters.sectors.name": "Sectores Ruta",
     "airspace.counters.tmas.count": 80,
-    "airspace.counters.tmas.name": "Áreas Terminale"
+    "airspace.counters.tmas.name": "Áreas Terminales",
+    "policies.hero.title": "Nuestras Políticas",
+    "policies.hero.slogan": "Politicas y Reglamentos Divisionales",
+    "policies.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula tincidunt feugiat. Sed auctor tristique tortor in vulputate.",
+    "policies.policy.review": "Revisar"
 }

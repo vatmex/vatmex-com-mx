@@ -64,5 +64,9 @@
     "airspace.counters.sectors.count": 60,
     "airspace.counters.sectors.name": "Sectors",
     "airspace.counters.tmas.count": 80,
-    "airspace.counters.tmas.name": "Terminal Areas"
+    "airspace.counters.tmas.name": "Terminal Areas",
+    "policies.hero.title": "Our Policies",
+    "policies.hero.slogan": "Divisional Policies and Requirements",
+    "policies.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula tincidunt feugiat. Sed auctor tristique tortor in vulputate.",
+    "policies.policy.review": "Review"
 }

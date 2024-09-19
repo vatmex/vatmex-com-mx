@@ -9,7 +9,7 @@
 @section('content')
     <x-frontend.hero :title="__('roster.hero.title')" :slogan="__('roster.hero.slogan')" imageUrl="/frontend/images/heroes/hero1.jpg"/>
     <!-- end page title -->
-    <section class="bg-white position-relative">
+    <section class="bg-white position-relative pt-2"">
         <div class="container">
             <div class="row mb-3 justify-content-center appear">
                 <table id="localRoster" class="table table-roster table-hover">
