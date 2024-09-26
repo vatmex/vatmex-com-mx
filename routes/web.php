@@ -26,7 +26,10 @@ Route::prefix('/about')->group(function() {
 
 Route::prefix('/publications')->group(function() {
     Route::get('/policies', [PolicyController::class, 'publicIndex']);
-    Route::get('/news', [NewsController::class, 'publicIndex']);
+    Route::prefix('/news')->group(function() {
+        Route::get('/', [NewsController::class, 'publicIndex']);
+        Route::get('/{id}', [NewsController::class, 'publicShow'])->name('frontend.publications.news.show');
+    });
     Route::get('/notams', [NotamController::class, 'publicIndex']);
     Route::get('/loas', [LetterController::class, 'publicIndex']);
 });

@@ -68,5 +68,7 @@
     "policies.hero.title": "Nuestras Políticas",
     "policies.hero.slogan": "Politicas y Reglamentos Divisionales",
     "policies.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula tincidunt feugiat. Sed auctor tristique tortor in vulputate.",
-    "policies.policy.review": "Revisar"
+    "policies.policy.review": "Revisar",
+    "news.hero.title": "Latest News",
+    "news.hero.slogan": "Browse the latest"
 }

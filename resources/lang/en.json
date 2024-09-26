@@ -68,5 +68,7 @@
     "policies.hero.title": "Our Policies",
     "policies.hero.slogan": "Divisional Policies and Requirements",
     "policies.message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula tincidunt feugiat. Sed auctor tristique tortor in vulputate.",
-    "policies.policy.review": "Review"
+    "policies.policy.review": "Review",
+    "news.hero.title": "Latest News",
+    "news.hero.slogan": "Browse the latest"
 }

@@ -1,11 +1,19 @@
 <header class="header-with-topbar">
+    @if ($transparent)
     <nav class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse" data-header-hover="light">
+    @else
+    <nav class="navbar navbar-expand-lg header-light bg-white disable-fixed">
+    @endif
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    @if ($transparent)
                     <img src="/frontend/images/logo-white.png" data-at2x="/frontend/images/logo-white.png" alt="" class="default-logo">
                     <img src="/frontend/images/logo-black.png" data-at2x="/frontend/images/logo-black.png" alt="" class="alt-logo">
                     <img src="/frontend/images/logo-black.png" data-at2x="/frontend/images/logo-black.png" alt="" class="mobile-logo">
+                    @else
+                    <img src="/frontend/images/logo-white.png" data-at2x="/frontend/images/logo-black.png" alt="" class="default-logo">
+                    @endif
                 </a>
             </div>
             <div class="col-auto col-lg-6 menu-order position-static">
@@ -35,7 +43,6 @@
                                 <li><a href="{{ url('/publications/policies') }}"><i class="fa-solid fa-scale-balanced"></i>{{ __('navbar.policies') }}</a></li>
                                 <li><a href="{{ url('/publications/news') }}"><i class="fa-solid fa-newspaper"></i>{{ __('navbar.news') }}</a></li>
                                 <li><a href="{{ url('/publications/notams') }}"><i class="fa-solid fa-rss"></i>{{ __('navbar.notams') }}</a></li>
-                                <li><a href="{{ url('/publications/loas') }}"><i class="fa-regular fa-handshake"></i>{{ __('navbar.loas') }}</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="{{ url('/events') }}" class="nav-link">{{ __('navbar.events') }}</a></li>
@@ -44,6 +51,7 @@
                             <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a href="https://training.vatmex.com.mx/" target="_blank"><i class="fa-solid fa-chalkboard-teacher"></i>{{ __('navbar.training_portal') }}</a></li>
+                                <li><a href="{{ url('/publications/loas') }}"><i class="fa-regular fa-handshake"></i>{{ __('navbar.loas') }}</a></li>
                                 <li><a href="https://sop.vatmex.com.mx/" target="_blank"><i class="fa-solid fa-book"></i>{{ __('navbar.sops') }}</a></li>
                                 <li><a href="https://virtualairtrafficsystem.com/" target="_blank"><i class="fa-solid fa-download"></i>{{ __('navbar.vatsys_download') }}</a></li>
                             </ul>
